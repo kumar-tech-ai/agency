@@ -1,3 +1,8 @@
+import * as React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+
+ 
  <footer
           style={{
           background:'#ffdd00',
@@ -12,3 +17,9 @@
           <a href="https://www.origamicreative.com">Origamicreative</a>
         </div>
         </footer>
+
+ 
+
+ 
+
+export default Footer
