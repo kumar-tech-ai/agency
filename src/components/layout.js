@@ -34,18 +34,21 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
+       
+      </div>
+    </>
+ <footer
           style={{
-            marginTop: `2rem`,
-                 background:'#ffdd00',
+          margin: `0 auto`,
+          maxWidth: 1170,
+          padding: `0 1.0875rem 1.45rem`,
+          background:'#ffdd00',
           }}
         >
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.origamicreative.com">Origamicreative</a>
         </footer>
-      </div>
-    </>
   )
 }
 
