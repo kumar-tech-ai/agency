@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const Footer = ({ copyright }) => { 
+const Footer = ({ copyright }) => (
  <footer
           style={{
           background:'#ffdd00',
@@ -18,7 +18,7 @@ const Footer = ({ copyright }) => {
         </div>
         </footer>
 
- 
+)
 
  
 
